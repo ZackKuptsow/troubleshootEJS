@@ -1,0 +1,12 @@
+<%- include('partials/head') %>
+
+<%- include('partials/navbar') %>
+
+<h1>Dem Rappers</h1>
+<ul>
+    <% for(let rap of rappers) { %>
+    <li><%= rap %></li>
+    <% } %>
+</ul>
+
+<%- include('partials/footer') %>
